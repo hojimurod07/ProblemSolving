@@ -15,9 +15,11 @@ while True:
         break
     i+=1
 
-print(matn[start+1:end])
+
 
 
 natija =[]
 natija.append(matn)
 natija.append(matn[start+1:end]*2)
+natija.append(matn[end:])
+print(" ".join(natija))
